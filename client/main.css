@@ -1,0 +1,55 @@
+body {
+  padding: 10px;
+  font-family: "Calibri";
+  background-color: #ccc;
+}
+
+
+.box{
+	width: 60%;
+	height: 400px;
+	margin: auto;
+	margin-top: 50px;
+	background-color: #fff;
+	padding: 30px;
+}
+
+.box h1{
+	text-align: center;
+}
+
+.redLine{
+	width: 30%;
+	height: 6px;
+	border: none;
+	background-color: #f00;
+	border-radius: 10px;
+}
+
+.todolist{
+	list-style: none;
+}
+
+.todolist li{
+	font-size: 30px;
+}
+
+.todolist li::before {
+	content: "\25A0";
+	color:#f00;
+	display: inline-block;
+	width: 50px;
+}
+
+.taskInp{
+	width: 80%;
+	height: 60px;
+	margin: auto;
+	font-size: 30px;
+	font-weight: bold;
+	color: #999;
+	margin-left: 5%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 10px 30px;
+}

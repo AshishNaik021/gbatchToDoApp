@@ -1,0 +1,36 @@
+object = {
+	"firstName" : "Ashish",
+	"lastName" : "Naik",
+	hobbies: ["Cricket","Football","Movies","Music","Reading"],
+	address:{
+		flatNum: "V-603",
+		apartmentName: "Jasminium Apartments",
+		streetName: "Magarpatta City",
+		area:"Hadapsar",
+		city:"Pune",
+		pincode:"411013"
+	},
+	academics:[
+		{degree:"10th",yearofPassing:"2011",passingMarks:"80"},
+		{degree:"12th",yearofPassing:"2013",passingMarks:"85"},
+		{degree:"BE",yearofPassing:"2017",passingMarks:"90"},
+	]
+}
+
+
+object.firstName 
+object.hobbies[0]
+object.hobbies[1]
+object.hobbies[5]
+
+object.address.city
+
+object.academics[0].degree 
+object.academics[0].yearofPAssing
+
+
+function(){
+	
+} 
+
+()=>{}
