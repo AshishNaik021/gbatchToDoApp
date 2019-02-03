@@ -1,9 +1,9 @@
 object = {
 	"firstName" : "Ashish",
 	"lastName" : "Naik",
-	hobbies: ["Cricket","Football","Movies","Music","Reading"],
-	address:{
-		flatNum: "V-603",
+	"hobbies": ["Cricket","Football","Movies","Music","Reading"],
+	"address":{
+		"flatNum": "V-603",
 		apartmentName: "Jasminium Apartments",
 		streetName: "Magarpatta City",
 		area:"Hadapsar",
@@ -34,3 +34,9 @@ function(){
 } 
 
 ()=>{}
+
+
+db.tasks.insert({"task":"Lets Do Shopping in Amanora Mall"});
+
+
+task.update({"_id":"taskid"},{$set:{"task":"taskValue"} })

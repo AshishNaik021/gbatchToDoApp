@@ -7,7 +7,7 @@ body {
 
 .box{
 	width: 60%;
-	height: 400px;
+	height: auto;
 	margin: auto;
 	margin-top: 50px;
 	background-color: #fff;
@@ -52,4 +52,33 @@ body {
 	margin-top: 15px;
 	margin-bottom: 15px;
 	padding: 10px 30px;
+}
+.taskInp::placeholder{
+	font-size: 27px;
+	color: #aaa;
+	font-weight: normal;
+}
+
+.del{
+	font-size: 30px;
+	color: #f00;
+	float: right;
+	margin-right: 50px;
+	cursor: pointer;
+	padding: 0px 5px;
+}
+.del:hover{
+	font-size: 30px;
+	color: #c33;
+	background-color: #ff0;
+}
+
+.done{
+	color: #0a0;
+	text-decoration: line-through;
+}
+
+.smallTxt{
+	font-size: 15px;
+	font-weight: normal;
 }
